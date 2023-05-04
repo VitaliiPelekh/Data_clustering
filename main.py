@@ -8,7 +8,7 @@ from scipy.spatial.distance import cdist
 
 # Генерування даних
 def generate_data(N=1000):
-    data, _ = make_blobs(n_samples=N, centers=5, random_state=42)
+    data, _ = make_blobs(n_samples=N, centers=100000, random_state=42)
     return data
 
 
